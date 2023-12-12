@@ -133,7 +133,7 @@ function sendPreInvestigationEmails() {
     var pharmEmail = pharmEmailOne + "," + pharmEmailTwo
 
 
-
+    // replacing information on the documents
     emailSubjRow = emailSubj.replaceAll('{busName}', busName) 
     var bodies = EMAIL_BODY.replaceAll('{busName}', busName)
     bodies = bodies.replaceAll('{address}', address)
